@@ -1,0 +1,29 @@
+img{
+    border: 0;
+    margin-left: 8%;
+}
+.Racc{
+    margin-top: 4%;
+    margin-left: 7%;
+    background-color: #e9ebee;
+    display: block;
+    
+
+}
+span{
+    flex: 1 1 0px;
+    text-decoration: none;
+    margin-left: -15%;
+    font-size: 14px;
+    
+}
+
+.test{
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    flex: 1 1 0px;
+    overflow: hidden;
+    padding: 5px 4px 5px 0; 
+}
