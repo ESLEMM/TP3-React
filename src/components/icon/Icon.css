@@ -1,0 +1,14 @@
+.icon{
+    display: flex;
+    flex-direction: row;
+    border: solid black 1px;
+    height: 200px;
+    width: 150px;
+}
+p{ border: solid black 1px;
+     height: 100px;
+    width: 150px;}
+img{border: solid black 1px;
+    height: 100px;
+    width: 150px;
+}

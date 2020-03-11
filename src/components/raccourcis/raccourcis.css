@@ -1,29 +1,19 @@
 img{
     border: 0;
-    margin-left: 8%;
+    margin-bottom: 4%;
 }
-.Racc{
-    margin-top: 4%;
-    margin-left: 7%;
+.Racc{ 
+    width: 140px;
     background-color: #e9ebee;
-    display: block;
-    
-
+    display: flex;
+    flex-direction: row;
 }
 span{
-    flex: 1 1 0px;
     text-decoration: none;
-    margin-left: -15%;
-    font-size: 14px;
-    
+    font-size: 14px; 
 }
-
-.test{
-    align-items: center;
+.lien{ 
+    margin-top: 2%;
     text-decoration: none;
     color: inherit;
-    display: flex;
-    flex: 1 1 0px;
-    overflow: hidden;
-    padding: 5px 4px 5px 0; 
 }

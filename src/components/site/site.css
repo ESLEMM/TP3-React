@@ -7,15 +7,30 @@
     margin-top: 0%;
 }
 body{
+    display: flex;
+    flex-direction: row;
+    
     background-color: #e9ebee;
    
-   
+
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 38px;
+}
+.contactsite{
+    right: -30px;
+    position: fixed;
+}
+.cover{
+    height: 300px;
+    width: 700px;
 
 }
 
-.div2{
-   
-}
-.imageCover{
-    image-resolution: 1088px 332px;
+.SideB {
+    margin-left: 80px;
+
 }

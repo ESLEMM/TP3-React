@@ -1,0 +1,8 @@
+.sideBar {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+.lisRa{
+    margin-right: 1000px;
+}

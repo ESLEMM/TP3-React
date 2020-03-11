@@ -1,27 +1,32 @@
 import React from 'react';
-import Menu from '../menu/menu.js'
-import Raccourcis from '../raccourcis/raccourcis.js'
-import img1 from './cover.PNG'
-import img2 from './im2.png'
+
+import cover from '../../assets/cover.PNG'
+import pubpic from '../../assets/p1.jpg'
+
+import Publication from '../publication/Publication.js';
 
 import './site.css'
-
-import { Row, Col } from 'antd';
-
+import Contacts from '../contacts/Contacts.js';
+import SideBar from '../sideBar/SideBar.js';
+import ListePub from '../listePub/ListePub';
+import Publier from '../publier/Publier';
+import ListePublier from '../listePublier/ListePublier';
 
 function Site() {
     return (
-        <body style={{position: "fixed"}} >
-        <div >
-        <h2 >ING2 -INLOG -INREV</h2>
-        <Menu/>     
-        <p className="titre"> Raccourcis</p>
-         <Raccourcis img={img2} titre="nom page"/>
-         <Raccourcis img={img2} titre="nom groupe "/>
-         <Raccourcis img={img2} titre="2 ING "/>
-         <Raccourcis img={img2} titre="Groupe ludo "/>
-         <Raccourcis img={img2} titre="2 ING "/>
-         <Raccourcis img={img2} titre="2 ING "/>       
+        <body  >
+        <div className="SideB"><SideBar/></div>    
+        
+        <section>
+        <img src={cover}className="cover"  />
+        
+        <div className="pub">
+        <ListePublier/>
+        <ListePub/>
+        </div>
+        </section>
+        <div className="contactsite">        
+            <Contacts />
         </div>        
         </body>
 

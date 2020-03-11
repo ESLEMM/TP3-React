@@ -1,0 +1,19 @@
+.publier{
+    display: flex;
+    flex-direction: row;
+    width:180px; 
+
+}
+
+.vertical-line{
+    border-left: 1px solid #000;
+    display: inline-block;
+    height: 25px;
+    margin-left: 5%;
+    margin-top: 26px;
+}
+img{
+    width:30px; 
+    height: 20px;
+    margin-top: 25px;
+}
