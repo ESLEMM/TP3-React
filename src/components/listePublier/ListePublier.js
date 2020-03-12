@@ -14,8 +14,7 @@ import img2 from '../../assets/p1.jpg'
 function ListePublier() {
     return (
 <div className="listePublier">
-   <div className="pub1" >
-    
+   <div className="pub1" >   
         <Publier message="message" publierimg={pen}/> 
        <Publier message="photo/video" publierimg={camera} />
        <Publier message="video en direct" publierimg={cinema}/>

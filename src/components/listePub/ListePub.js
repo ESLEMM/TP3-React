@@ -11,10 +11,7 @@ import Publication from '../publication/Publication.js';
 
 function ListePub() {
     return (
-        
-            
-        
-        
+     
         <div className="listepub">
         <Publication  name="Emna Amri" profileimg={pubpic} pubimg={pubpic}>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 

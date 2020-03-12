@@ -6,10 +6,9 @@ function Publier (props){
     
  <div className="publier">
      <img src={props.publierimg}  />
-<p className="element">{props.message}</p>
+    <p>{props.message}</p>
     <span className="vertical-line">  
-    </span>
-    
+    </span>  
 </div>
       )
 }
